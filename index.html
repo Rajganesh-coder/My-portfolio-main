@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raj Ganesh - MCA Software Trainer Portfolio</title>
+    <meta name="description" content="Personal portfolio showcasing my experience as an MCA graduate and Software Trainer with two years of experience">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="https://cdn.jsdelivr.net/npm/twemoji@14.0.2/assets/72x72/1f4bb.png">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+.filter-buttons{
+font-family: 'Poppins', sans-serif;
+}
+
+
+.hero-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.hero-content {
+    flex: 1;
+    min-width: 300px;
+}
+
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-container img {
+    width: 300px;
+    max-width: 100%;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+.contact-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.contact-info {
+    max-width: 700px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-card {
+    background: #1f1f1f;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+    transition: transform 0.3s;
+}
+
+.contact-card:hover {
+    transform: translateY(-5px);
+}
+
+.contact-card-icon i {
+    font-size: 28px;
+    color: #00bcd4;
+    margin-bottom: 10px;
+}
+
+.contact-social .social-icons a {
+    font-size: 20px;
+    margin: 0 10px;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.contact-social .social-icons a:hover {
+    color: #00bcd4;
+}
+.contact-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.contact-card {
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-card-icon {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+.contact-social {
+  grid-column: span 2;
+  text-align: center;
+  margin-top: 20px;
+}
+
+    </style>
+</head>
+<body class="dark">
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="#home">Raj Ganesh </a>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="theme-toggle">
+                    <i class="fas fa-sun"></i>
+                    <i class="fas fa-moon"></i>
+                </div>
+                <div class="hamburger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+    <div class="container">
+        <div class="hero-row">
+            <!-- Left: Text Content -->
+            <div class="hero-content">
+                <h1>Hi, I'm <span class="highlight">Raj Ganesh</span></h1>
+                <h2>I'm a <span class="typed-text"></span></h2>
+                <p>MCA graduate with two years of experience as a Software Trainer. Passionate about teaching and building modern applications.</p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn primary-btn">Get In Touch</a>
+                    <a href="https://drive.google.com/file/d/1DZhXDNeKm9F7vbchyhI4BGpN73GFlNbE/view?usp=sharing" class="btn secondary-btn">Download CV</a>
+                </div>
+                <div class="social-icons">
+                    <a href="https://github.com/Rajganesh-coder" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/raj-ganesh-04r2004?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://x.com/rajaganeshkana1?t=IKBah0gCcu2tGWXHqsA8zA&s=08" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/raj_ganesh_official_?igsh=cWxvNmJ5bnZyeTNw" aria-label="Email"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <!-- Right: Image -->
+            <div class="hero-image">
+                <div class="profile-container">
+                    <!-- <img src="image.jpeg" alt="Profile avatar"></img> -->
+                    <img src="images\image.jpeg" alt="Profile avatar">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">Get to know me and my background</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>My Journey</h3>
+                    <p> Hello ! I'm Raj Ganesh, a passionate Full Stack Developer from Thanjavur, Tamil Nadu, with a strong foundation in both creative and technical aspects of software development.  </p>
+                    <p>My journey began with curiosity about how websites work, leading me to pursue a B.Com in Computer Applications at PRIST University, and currently an MCA at Alagappa University. I’ve built several full-stack projects using ReactJS, PHP, MySQL, and JavaScript, and currently work as a Junior Developer at Isysway Technologies. </p>
+                    <p>With certifications in React, AWS, and Python, I focus on creating clean, efficient, and user-centered applications while continuously exploring new technologies.</p>
+                </div>
+                <div class="about-cards">
+                    <div class="card">
+                        <div class="card-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Teaching</h3>
+                        <p>Effective communication of complex programming concepts in simple terms.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3>Curriculum Design</h3>
+                        <p>Creating structured learning paths for various skill levels.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">
+                            <i class="fas fa-project-diagram"></i>
+                        </div>
+                        <h3>Project Management</h3>
+                        <p>Guiding students through real-world software projects.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h3>Problem Solving</h3>
+                        <p>Teaching effective debugging and solution development.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Skills</h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">Technologies and tools I work with</p>
+            </div>
+            <div class="skills-content">
+                <div class="technical-skills">
+                    <h3>Technical Skills</h3>
+                    <div class="skill-bars">
+                        <div class="skill">
+                            <div class="skill-info">
+                                <span>Programming Language</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-info">
+                                <span>Frontend & Backend</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-info">
+                                <span>React & Node.js</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-info">
+                                <span>Designing Tools</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-info">
+                                <span>Cloud & Deployment</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="other-skills">
+                    <h3>Technologies I Teach</h3>
+                    <div class="tools-grid">
+                        <div class="tool-item">Python</div>
+                        <div class="tool-item">AWS & AZURE</div>
+                        <div class="tool-item">JavaScript</div>
+                        <div class="tool-item">React JS</div>
+                        <div class="tool-item">MySQL</div>
+                        <div class="tool-item">PHP</div>
+                        <div class="tool-item">JQuery</div>
+                        <div class="tool-item">C & C++ Programming</div>
+                    </div>
+                    
+                    <h3 class="education-title">Education</h3>
+                    <div class="education">
+                        <div class="education-item">
+                            <div class="education-info">
+                                <h4>Master of Computer Applications </h4>
+                                <p>Azhagappa University ,KaraiKudi</p>
+                            </div>
+                            <div class="education-year">2018 - 2021</div>
+                        </div>
+                        <div class="education-item" style="margin-top: 15px;">
+                            <div class="education-info">
+                                <h4>Bachelor of Commerce in Computer Application </h4>
+                                <p>College of Computer Science</p>
+                            </div>
+                            <div class="education-year">2015 - 2018</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Projects</h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">Some of my recent work</p>
+            </div>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Basic</button>
+                <button class="filter-btn" data-filter="app">React Project</button>
+                <button class="filter-btn" data-filter="design">PHP Project</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-item" data-category="web">
+                    <div class="project-img">
+                        <img src="images\image3.jpg" alt="Coding Bootcamp Platform">
+                    </div>
+                    <div class="project-info">
+                        <h3>Student Record Management</h3>
+                        <p>A Basic CRUD application Using ReactJS, PHP, and MySQL</p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Rajganesh-coder" target="_blank"><i class="fab fa-github"></i> Code</a>
+                            <!-- <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item" data-category="app">
+                    <div class="project-img">
+                        <img src="images\image45.jpg" alt="Student Progress Tracker">
+                    </div>
+                    <div class="project-info">
+                        <h3>Weather App</h3>
+                        <p>Fetch real-time weather data using an API (e.g OpenWeatherMap)              Display temperature, humidity, and wind speed and Search by city name. </p>
+                        <div class="project-tags">
+                            <span>ReactJS</span>
+                            <span>Javascript</span>
+                            <span>TailwindCSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Rajganesh-coder" target="_blank"><i class="fab fa-github"></i> Code</a>
+                            <!-- <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item" data-category="design">
+                    <div class="project-img">
+                        <img src="images\image6.jpg" alt="Curriculum Builder">
+                    </div>
+                    <div class="project-info">
+                        <h3>E-Commerce Product List</h3>
+                        <p>Developed an intuitive and responsive web interface using ReactJS, HTML, CSS, JavaScript, and Bootstrap for
+seamless user experience. </p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>React</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Rajganesh-coder" target="_blank"><i class="fab fa-github"></i> Code</a>
+                            <!-- <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item" data-category="app">
+                    <div class="project-img">
+                        <img src="images\final1.png" alt="Code Review App">
+                    </div>
+                    <div class="project-info">
+                        <h3>E-learning Website</h3>
+                        <p>Built a dynamic product listing system with filtering and sorting functionalities using ReactJS, PHP, and MySQL.</p>
+                        <div class="project-tags">
+                            <span>ReactJS</span>
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                            
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Rajganesh-coder" target="_blank"><i class="fab fa-github"></i> Code</a>
+                            <!-- <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a> -->
+                        </div>
+                    </div>
+                </div>
+                 <div class="project-item" data-category="design">
+                    <div class="project-img">
+                        <img src="images\image46.jpg" alt="Curriculum Builder">
+                    </div>
+                    <div class="project-info">
+                        <h3> Personal Finance Tracker</h3>
+                        <p>A React app to manage and categorize income and expenses.Displays charts for financial insights and helps set monthly savings goals.Data can be stored using localStorage or Firebase.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>React</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Rajganesh-coder" target="_blank"><i class="fab fa-github"></i> Code</a>
+                            <!-- <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a> -->
+                        </div>
+                    </div>
+                </div>
+                 <div class="project-item" data-category="design">
+                    <div class="project-img">
+                        <img src="images\image47.jpg" alt="Curriculum Builder">
+                    </div>
+                    <div class="project-info">
+                        <h3>To-Do List App</h3>
+                        <p>A basic task manager built with React to add, edit, and delete tasks.Tasks can be marked as complete or pending.Uses localStorage to save tasks between sessions. </p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>React</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Rajganesh-coder" target="_blank"><i class="fab fa-github"></i> Code</a>
+                            <!-- <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="section-line"></div>
+            <p class="section-subtitle">Let's work together</p>
+        </div>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-card">
+                    <div class="contact-card-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email</h3>
+                    <p><a href="mailto:rajganeshkanagasabai24@gmail.com">rajganeshkanagasabai24@gmail.com</a></p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-card-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3>Phone</h3>
+                    <p><a href="tel:+918248576104">+91  824-857-6104</a></p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-card-icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <h3>Whatsapp </h3>
+                    <p><a href="91+8248576104">91 + 8248576104</a></p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-card-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Location</h3>
+                    <p>Tamilnadu, India</p>
+                </div>
+                <div class="contact-social">
+                    <h3>Connect with me</h3>
+                    <div class="social-icons-edited">
+                    <div class="social-icons">
+                        <a href="https://github.com/Rajganesh-coder" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/raj-ganesh-04r2004?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://x.com/rajaganeshkana1?t=IKBah0gCcu2tGWXHqsA8zA&s=08" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/raj_ganesh_official_?igsh=cWxvNmJ5bnZyeTNw" aria-label="Email"><i class="fab fa-instagram"></i></a>
+                        <a href="91+8248576104" aria-label="Email"><i class="fab fa-whatsapp"></i></a>
+ 
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Raj Ganesh</h3>
+                    <p>MCA Graduate & Software Trainer</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://github.com/Rajganesh-coder" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/raj-ganesh-04r2004?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://x.com/rajaganeshkana1?t=IKBah0gCcu2tGWXHqsA8zA&s=08" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/raj_ganesh_official_?igsh=cWxvNmJ5bnZyeTNw" aria-label="Email"><i class="fab fa-instagram"></i></a>
+                 </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Raj Ganesh. All Rights Reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" aria-label="Back to Top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

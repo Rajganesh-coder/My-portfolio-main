@@ -1,0 +1,13 @@
+{
+  "name": "mca-portfolio",
+  "version": "1.0.0",
+  "description": "Minimalistic portfolio with neon effects for an MCA graduate",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
