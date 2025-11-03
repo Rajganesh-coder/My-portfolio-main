@@ -183,4 +183,11 @@ document.addEventListener('DOMContentLoaded', function() {
     window.addEventListener('scroll', animateSkillBars);
     // Call once on load to animate if already in view
     setTimeout(animateSkillBars, 500);
+    
 });
+
+
+
+
+
+
